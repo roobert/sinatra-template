@@ -5,10 +5,10 @@ require 'rubygems'
 module Rack
   class Request
     def path_info
-            @env["REDIRECT_URL"].to_s
+      @env["REDIRECT_URL"].to_s
     end
     def path_info=(s)
-            @env["REDIRECT_URL"] = s.to_s
+      @env["REDIRECT_URL"] = s.to_s
     end
   end
 end

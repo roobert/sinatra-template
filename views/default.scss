@@ -30,43 +30,43 @@ $navbar_bottom_bg : $navbar_top_bg;
 $page_width : 860px;
 
 body {
-	margin: 0px;
-	background: $page_bg;
-	font: {
-		family: Arial, Verdana, "Bitstream Vera Sans", Helvetica, sans-serif; 
-		size: 11px;
-	}
+  margin: 0px;
+  background: $page_bg;
+  font: {
+    family: Arial, Verdana, "Bitstream Vera Sans", Helvetica, sans-serif; 
+    size: 11px;
+  }
 }
 
 div#title {
-	font-size: 30px ! important;
+  font-size: 30px ! important;
 }
-	
+  
 a {
-	color: $links_c;
-	text-decoration: none;
-	&:hover {
-		color: $links_hover_c;
-	}
+  color: $links_c;
+  text-decoration: none;
+  &:hover {
+    color: $links_hover_c;
+  }
 }
 
 #header a, {
-	color: $header_links_c !important;
-	&:hover {
-		color: $header_hover_c !important;
-	}
+  color: $header_links_c !important;
+  &:hover {
+    color: $header_hover_c !important;
+  }
 }
 
 #header {
-	margin: 20px auto 0;
-	width: $page_width;
-	color: $header_c;
+  margin: 20px auto 0;
+  width: $page_width;
+  color: $header_c;
 }
 
 #content {
-	padding: 5px 10px;
-	margin: 0 auto;
-	width: $page_width;
-	background: $body_bg;
-	color: $text_c;
+  padding: 5px 10px;
+  margin: 0 auto;
+  width: $page_width;
+  background: $body_bg;
+  color: $text_c;
 }
