@@ -25,6 +25,6 @@ get '/css/:style.css' do
 end
 
 get '*' do
-	@content = "hello!"
-	haml :content
+  @content = "hello!"
+  haml :content
 end
